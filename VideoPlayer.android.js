@@ -9,8 +9,8 @@ import {
 } from 'react-native';
 import Video from 'react-native-video';
 import Orientation from 'react-native-orientation-locker';
-import { FullscreenClose, FullscreenOpen } from '../assets/icons';
-import { PlayerControls, ProgressBar } from '../components';
+import { FullscreenClose, FullscreenOpen } from './assets/icons';
+import { PlayerControls, ProgressBar } from './components';
 
 export const VideoPlayer = ({ source }) => {
   const videoRef = React.createRef();
